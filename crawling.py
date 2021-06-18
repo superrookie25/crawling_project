@@ -31,7 +31,7 @@ for i in a:
             imgUrl=(driver.find_element_by_css_selector('.n3VNCb').get_attribute("src"))
             urllib.request.urlretrieve(imgUrl,f''+folder+'/'+ str(count)+".jpg")
             count += 1
-            if count == 5:
+            if count == 31:
                 break;
         except:
             break
